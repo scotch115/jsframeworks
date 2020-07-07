@@ -1,0 +1,88 @@
+header.smaller {
+	position: sticky;
+	top: 0vh;
+	z-index: 1;
+	width: 100vw;
+	height: 120px !important;
+	margin-bottom: 400px;
+}
+
+header.smaller #logo {
+	width: 110px;
+	height: 105px;
+	position: fixed;
+	left: 5px;
+	top: 5px;
+}
+
+header.smaller #subtitle {
+	font-size: 20px;
+	position: fixed;
+	left: 130px;
+	top: 62px;
+}
+
+header.smaller #spacer {
+	padding: 0px;
+}
+
+#spacer {
+	padding: 50px;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+	height: 300px;
+	padding-bottom: 10px;
+	transition: ease-in-out;
+}
+
+#project {
+	transition: 1s;
+	opacity: 0.7;
+}
+
+#project:hover {
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+#card1 {
+	animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#card2 {
+	animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#card3 {
+	animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#card4 {
+	animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	 0% {
+			 opacity: 0;
+	 }
+	 100% {
+			 opacity: 1;
+	 }
+}
