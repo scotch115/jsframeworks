@@ -3,7 +3,7 @@
     <div class="App" style="background-color: rgb(241, 241, 241)">
 				<section class="hero is-large">
 			  <div class="hero-head"  style="background-color: white">
-			  <header class="navbar" style="height: 20px, position: fixed, right: 10px, margin-top: 20px">
+			  <header class="navbar" style="height: 20px, position: static, right: 10px">
 			      <div class="container">
 			        <div class="navbar-brand">
 			          <div role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" is-active="false">
@@ -64,9 +64,8 @@
 						</section>
 					</div>
 				 </div>
-			   <header id="header" style="background-color: white, height: 500px">
+			   <header id="header" style="background-color: white">
 			    <div class="container has-text-centered">
-					<div id="spacer"> </div>
 			      <div class="title">
 			        <img class="JGlogo" id="logo" src="./assets/JGlogo.png" alt="logo" width="170" height="190"/>
 			      </div>

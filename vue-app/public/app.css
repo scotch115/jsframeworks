@@ -1,4 +1,4 @@
-header.smaller {
+/* header.smaller {
 	position: sticky;
 	top: 0vh;
 	z-index: 1;
@@ -28,7 +28,7 @@ header.smaller #spacer {
 
 #spacer {
 	padding: 50px;
-}
+} */
 
 *,
 *:before,
@@ -39,8 +39,8 @@ header.smaller #spacer {
 }
 
 header {
-	height: 300px;
-	padding-bottom: 10px;
+	/* height: 300px; */
+	/* padding-bottom: 10px; */
 	transition: ease-in-out;
 }
 
